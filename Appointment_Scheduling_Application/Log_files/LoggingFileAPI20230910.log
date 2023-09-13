@@ -1,0 +1,301 @@
+2023-09-10 10:34:39.002 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 10:34:39.257 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 10:34:39.267 +05:30 [INF] Hosting environment: Development
+2023-09-10 10:34:39.270 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 10:34:39.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 10:34:39.839 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 10:34:39.856 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 10:34:39.887 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 583.3846ms
+2023-09-10 10:34:39.957 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 117.4853ms
+2023-09-10 10:34:40.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 10:34:40.467 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 411.0256ms
+2023-09-10 10:34:51.913 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/User/GetAllUser - -
+2023-09-10 10:34:51.948 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.UserController.GetAllUser (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 10:34:52.045 +05:30 [INF] Route matched with {action = "GetAllUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAllUser() on controller Appointment_Scheduling_Application.WebAPI.Controllers.UserController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 10:34:59.748 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Appointment_Scheduling_Application.DTOs.DTOs.UserViewModel, Appointment_Scheduling_Application.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-10 10:34:59.800 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Controllers.UserController.GetAllUser (Appointment_Scheduling_Application.WebAPI) in 7736.783ms
+2023-09-10 10:34:59.809 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.UserController.GetAllUser (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 10:34:59.820 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/User/GetAllUser - - - 200 - application/json;+charset=utf-8 7906.5144ms
+2023-09-10 10:38:49.128 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 10:38:49.370 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 10:38:49.379 +05:30 [INF] Hosting environment: Development
+2023-09-10 10:38:49.384 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 10:38:49.424 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 10:38:49.957 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 10:38:49.978 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 10:38:49.985 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 572.5786ms
+2023-09-10 10:38:50.027 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.2307ms
+2023-09-10 10:38:50.113 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 10:38:50.351 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.0502ms
+2023-09-10 10:38:59.733 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/GetByEmail?UserId=1 - -
+2023-09-10 10:38:59.765 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-10 10:38:59.809 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-09-10 10:38:59.814 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/GetByEmail?UserId=1 - - - 302 - - 81.1254ms
+2023-09-10 10:38:59.821 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/Account/Login?ReturnUrl=%2Fapi%2FAppointment%2FGetByEmail%3FUserId%3D1 - -
+2023-09-10 10:38:59.824 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/Account/Login?ReturnUrl=%2Fapi%2FAppointment%2FGetByEmail%3FUserId%3D1 - - - 404 - - 3.7926ms
+2023-09-10 10:39:36.688 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - -
+2023-09-10 10:39:36.727 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 10:39:36.863 +05:30 [INF] Route matched with {action = "GetToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(System.String) on controller Appointment_Scheduling_Application.WebAPI.Auth.AuthController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 10:39:45.132 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-10 10:39:45.166 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI) in 8278.1733ms
+2023-09-10 10:39:45.180 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 10:39:45.212 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - - - 200 - text/plain;+charset=utf-8 8526.5531ms
+2023-09-10 10:40:49.374 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/GetByEmail?UserId=1 - -
+2023-09-10 10:40:49.391 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-10 10:40:49.429 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-09-10 10:40:49.436 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/GetByEmail?UserId=1 - - - 302 - - 62.1111ms
+2023-09-10 10:40:49.450 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/Account/Login?ReturnUrl=%2Fapi%2FAppointment%2FGetByEmail%3FUserId%3D1 - -
+2023-09-10 10:40:49.452 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/Account/Login?ReturnUrl=%2Fapi%2FAppointment%2FGetByEmail%3FUserId%3D1 - - - 404 - - 1.5326ms
+2023-09-10 10:45:26.519 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 10:45:26.810 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 10:45:26.819 +05:30 [INF] Hosting environment: Development
+2023-09-10 10:45:26.822 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 10:45:26.866 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 10:45:27.887 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 10:45:27.941 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 10:45:27.955 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 1101.8447ms
+2023-09-10 10:45:28.026 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 139.1428ms
+2023-09-10 10:45:28.156 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 10:45:28.605 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 448.5902ms
+2023-09-10 10:46:01.770 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - -
+2023-09-10 10:46:01.849 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 10:46:01.981 +05:30 [INF] Route matched with {action = "GetToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(System.String) on controller Appointment_Scheduling_Application.WebAPI.Auth.AuthController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 10:46:10.402 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-10 10:46:10.429 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI) in 8428.7458ms
+2023-09-10 10:46:10.438 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 10:46:10.469 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - - - 200 - text/plain;+charset=utf-8 8698.5995ms
+2023-09-10 10:46:26.041 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 10:46:26.072 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-10 10:46:26.103 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-09-10 10:46:26.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 302 - - 68.1378ms
+2023-09-10 10:46:26.116 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/Account/Login?ReturnUrl=%2Fapi%2FAppointment%2FGet - -
+2023-09-10 10:46:26.119 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/Account/Login?ReturnUrl=%2Fapi%2FAppointment%2FGet - - - 404 - - 3.4251ms
+2023-09-10 10:47:14.835 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 10:47:14.858 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-10 10:47:14.880 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-09-10 10:47:14.902 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/Account/Login?ReturnUrl=%2Fapi%2FAppointment%2FGet - -
+2023-09-10 10:47:14.902 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 302 - - 66.5353ms
+2023-09-10 10:47:14.919 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/Account/Login?ReturnUrl=%2Fapi%2FAppointment%2FGet - - - 404 - - 17.9786ms
+2023-09-10 10:57:51.350 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 10:57:51.835 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 10:57:51.847 +05:30 [INF] Hosting environment: Development
+2023-09-10 10:57:51.852 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 10:57:51.928 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 10:57:53.076 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 10:57:53.120 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 10:57:53.133 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 1222.8841ms
+2023-09-10 10:57:53.223 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 146.9961ms
+2023-09-10 10:57:53.364 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 10:57:53.832 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 467.8508ms
+2023-09-10 11:02:19.474 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:02:19.777 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-10 11:02:19.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 500 - text/plain;+charset=utf-8 322.9053ms
+2023-09-10 11:06:17.309 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 11:06:17.853 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 11:06:17.865 +05:30 [INF] Hosting environment: Development
+2023-09-10 11:06:17.868 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 11:06:17.924 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 11:06:19.099 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 11:06:19.152 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 11:06:19.163 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 1253.7199ms
+2023-09-10 11:06:19.229 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 130.1541ms
+2023-09-10 11:06:19.363 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 11:06:19.796 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 432.9308ms
+2023-09-10 11:06:35.980 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - -
+2023-09-10 11:06:36.008 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:06:36.140 +05:30 [INF] Route matched with {action = "GetToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(System.String) on controller Appointment_Scheduling_Application.WebAPI.Auth.AuthController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 11:06:44.806 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-10 11:06:44.831 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI) in 8670.0237ms
+2023-09-10 11:06:44.840 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:06:44.871 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - - - 200 - text/plain;+charset=utf-8 8890.3644ms
+2023-09-10 11:06:51.753 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:06:51.915 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-10 11:06:51.935 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 500 - text/plain;+charset=utf-8 181.8988ms
+2023-09-10 11:16:01.567 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 11:16:02.026 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 11:16:02.037 +05:30 [INF] Hosting environment: Development
+2023-09-10 11:16:02.040 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 11:16:02.096 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 11:16:03.293 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 11:16:03.339 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 11:16:03.354 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 1271.6408ms
+2023-09-10 11:16:03.417 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.3581ms
+2023-09-10 11:16:03.535 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 11:16:03.997 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 462.1491ms
+2023-09-10 11:16:08.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:16:08.182 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-10 11:16:08.200 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 500 - text/plain;+charset=utf-8 170.4650ms
+2023-09-10 11:17:53.626 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 11:17:54.086 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 11:17:54.095 +05:30 [INF] Hosting environment: Development
+2023-09-10 11:17:54.097 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 11:17:54.147 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 11:17:55.220 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 11:17:55.275 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 11:17:55.289 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 1156.6418ms
+2023-09-10 11:17:55.348 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 127.7051ms
+2023-09-10 11:17:55.464 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 11:17:55.949 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 485.7278ms
+2023-09-10 11:17:59.962 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:18:00.121 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-10 11:18:00.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 500 - text/plain;+charset=utf-8 176.9706ms
+2023-09-10 11:19:30.727 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 11:19:31.001 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 11:19:31.007 +05:30 [INF] Hosting environment: Development
+2023-09-10 11:19:31.009 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 11:19:31.039 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 11:19:31.767 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 11:19:31.799 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 11:19:31.839 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 809.3216ms
+2023-09-10 11:19:31.859 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 91.4948ms
+2023-09-10 11:19:32.000 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 11:19:32.365 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 365.1602ms
+2023-09-10 11:19:36.698 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:19:36.878 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-10 11:19:36.894 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 500 - text/plain;+charset=utf-8 196.5532ms
+2023-09-10 11:21:00.925 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 11:21:01.406 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 11:21:01.418 +05:30 [INF] Hosting environment: Development
+2023-09-10 11:21:01.422 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 11:21:01.472 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 11:21:02.575 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 11:21:02.629 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 11:21:02.643 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 1177.5360ms
+2023-09-10 11:21:02.739 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 163.3393ms
+2023-09-10 11:21:02.851 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 11:21:03.328 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 477.5977ms
+2023-09-10 11:21:07.318 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:21:07.471 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-10 11:21:07.486 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 500 - text/plain;+charset=utf-8 168.5788ms
+2023-09-10 11:23:36.973 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 11:23:37.479 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 11:23:37.490 +05:30 [INF] Hosting environment: Development
+2023-09-10 11:23:37.494 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 11:23:37.547 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 11:23:38.658 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 11:23:38.726 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 11:23:38.741 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 1208.8810ms
+2023-09-10 11:23:38.824 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 165.8733ms
+2023-09-10 11:23:38.946 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 11:23:39.455 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 509.1838ms
+2023-09-10 11:23:43.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:23:44.105 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-10 11:23:44.137 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-09-10 11:23:44.142 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 401 - - 445.1055ms
+2023-09-10 11:24:09.862 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - -
+2023-09-10 11:24:09.909 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:24:10.061 +05:30 [INF] Route matched with {action = "GetToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(System.String) on controller Appointment_Scheduling_Application.WebAPI.Auth.AuthController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 11:24:18.809 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-10 11:24:18.840 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI) in 8754.8755ms
+2023-09-10 11:24:18.848 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:24:18.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - - - 200 - text/plain;+charset=utf-8 9018.0627ms
+2023-09-10 11:24:39.717 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:24:39.766 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2023-09-10 11:24:39.767 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-10 11:24:39.773 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-09-10 11:24:39.775 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 401 - - 58.7315ms
+2023-09-10 11:24:42.771 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:24:42.773 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2023-09-10 11:24:42.773 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-10 11:24:42.774 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-09-10 11:24:42.777 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 401 - - 6.5970ms
+2023-09-10 11:25:06.397 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:25:06.723 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.Get (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:25:06.726 +05:30 [INF] Route matched with {action = "Get", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 11:25:06.736 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-10 11:25:06.737 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.Get (Appointment_Scheduling_Application.WebAPI) in 11.13ms
+2023-09-10 11:25:06.737 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.Get (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:25:06.738 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 200 - text/plain;+charset=utf-8 341.3293ms
+2023-09-10 11:25:14.704 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/GetByEmail?UserId=1 - -
+2023-09-10 11:25:14.704 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.GetByEmail (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:25:14.712 +05:30 [INF] Route matched with {action = "GetByEmail", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Appointment_Scheduling_Application.Entitie.Model.AppointmentModel]]] GetByEmail(Int32) on controller Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 11:25:15.021 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Appointment_Scheduling_Application.Entitie.Model.AppointmentModel, Appointment_Scheduling_Application.Entitie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-10 11:25:15.038 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.GetByEmail (Appointment_Scheduling_Application.WebAPI) in 325.9564ms
+2023-09-10 11:25:15.039 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.GetByEmail (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:25:15.040 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/GetByEmail?UserId=1 - - - 200 - application/json;+charset=utf-8 335.8676ms
+2023-09-10 11:27:06.719 +05:30 [INF] User profile is available. Using 'C:\Users\naveen.devendran\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-10 11:27:07.282 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-10 11:27:07.293 +05:30 [INF] Hosting environment: Development
+2023-09-10 11:27:07.300 +05:30 [INF] Content root path: D:\ASSESMENT PROJECT\Appointment_Scheduling_Application\Appointment_Scheduling_Application\
+2023-09-10 11:27:07.361 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/index.html - -
+2023-09-10 11:27:08.470 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/_vs/browserLink - -
+2023-09-10 11:27:08.519 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-10 11:27:08.534 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/index.html - - - 200 - text/html;charset=utf-8 1188.2422ms
+2023-09-10 11:27:08.613 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 142.8789ms
+2023-09-10 11:27:08.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - -
+2023-09-10 11:27:09.308 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 552.2294ms
+2023-09-10 11:27:27.440 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/GetByEmail?UserId=1 - -
+2023-09-10 11:27:27.473 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.GetByEmail (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:27:27.605 +05:30 [INF] Route matched with {action = "GetByEmail", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Appointment_Scheduling_Application.Entitie.Model.AppointmentModel]]] GetByEmail(Int32) on controller Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 11:27:35.649 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Appointment_Scheduling_Application.Entitie.Model.AppointmentModel, Appointment_Scheduling_Application.Entitie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-10 11:27:35.688 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.GetByEmail (Appointment_Scheduling_Application.WebAPI) in 8060.4369ms
+2023-09-10 11:27:35.697 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.GetByEmail (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:27:35.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/GetByEmail?UserId=1 - - - 200 - application/json;+charset=utf-8 8265.0755ms
+2023-09-10 11:27:41.665 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:27:41.959 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-10 11:27:41.987 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-09-10 11:27:41.991 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 401 - - 326.7747ms
+2023-09-10 11:27:59.382 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - -
+2023-09-10 11:27:59.384 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:27:59.391 +05:30 [INF] Route matched with {action = "GetToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(System.String) on controller Appointment_Scheduling_Application.WebAPI.Auth.AuthController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 11:28:00.685 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-10 11:28:00.687 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI) in 1295.5218ms
+2023-09-10 11:28:00.687 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Auth.AuthController.GetToken (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:28:00.719 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Auth/GetToken?email=ndeva6798%40gmail.com - - - 200 - text/plain;+charset=utf-8 1336.1212ms
+2023-09-10 11:28:16.446 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - -
+2023-09-10 11:28:16.738 +05:30 [INF] Executing endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.Get (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:28:16.741 +05:30 [INF] Route matched with {action = "Get", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController (Appointment_Scheduling_Application.WebAPI).
+2023-09-10 11:28:16.742 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-10 11:28:16.743 +05:30 [INF] Executed action Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.Get (Appointment_Scheduling_Application.WebAPI) in 2.1606ms
+2023-09-10 11:28:16.743 +05:30 [INF] Executed endpoint 'Appointment_Scheduling_Application.WebAPI.Controllers.AppointmentController.Get (Appointment_Scheduling_Application.WebAPI)'
+2023-09-10 11:28:16.744 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:54855/api/Appointment/Get - - - 200 - text/plain;+charset=utf-8 297.7684ms
